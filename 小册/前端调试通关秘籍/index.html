@@ -1,0 +1,15 @@
+<script>
+  function fun() {
+    const a = 1;
+    const b = 2;
+    return function () {
+      const c = 2;
+
+      console.log(a, c);
+      debugger;
+    };
+  }
+
+  const f = fun();
+  f();
+</script>
